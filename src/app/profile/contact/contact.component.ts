@@ -11,16 +11,16 @@ import { environment } from '../../../environments/environment';
   styleUrls: ['./contact.component.scss']
 })
   export class ContactComponent implements OnInit {
- 
+
     model: any = {};
-  
+
     constructor(
       private http: HttpClient
     ){}
-  
+
     ngOnInit() {
        }
-       onSubmit(name, subject, email, message) {
+/*        onSubmit(name, subject, email, message) {
           const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
           this.http.post('https://formspree.io/f/mwkwpzve',
             { name: name, subject: subject, replyto: email, message: message },
@@ -29,5 +29,5 @@ import { environment } from '../../../environments/environment';
                 console.log(response);
               }
             );
-        }  
+        }   */
 }
