@@ -1,2 +1,2 @@
-
-ng build --prod --baseHref="https://github.com/squishpesolis/portafolio/”"
+ng add angular-cli-ghpages
+ng build --prod --base-href "Personal-Portfolio-Stalyn-Quishpe"
